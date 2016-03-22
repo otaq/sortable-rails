@@ -2,6 +2,7 @@ require "sortable/rails/version"
 
 module Sortable
   module Rails
-    # Your code goes here...
+    class Engine < ::Rails::Engine
+    end
   end
 end
