@@ -1,1 +1,1 @@
-//=require ./jquery.bindings.js
+//=require ./jquery.binding.js

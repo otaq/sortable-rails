@@ -1,6 +1,6 @@
 # Sortable::Rails
 
-This gem packages the https://github.com/RubaXa/Sortable for Rails's assets pipeline 
+This gem packages the https://github.com/RubaXa/Sortable for Rails's assets pipeline
 
 Sortable is a minimalist JavaScript library for reorderable drag-and-drop lists.
 
@@ -14,16 +14,22 @@ gem 'sortable-rails'
 
 And then execute:
 
-``` 
+```
 $ bundle install
 ```
 
 In app/assets/javascripts/application.js, you should add as follows:
 
-``` 
+```
 //= require ...
 //= require sortable-rails
 //= require_tree .
+```
+
+Optional jQuery bindings can also be loaded in your applications.js file:
+
+```
+//= require sortable-rails-jquery
 ```
 
 ## Usage
